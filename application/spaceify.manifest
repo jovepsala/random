@@ -1,0 +1,24 @@
+{
+  "provides_services": [
+    {
+      "service_name": "spaceify.org/services/randomz",
+      "service_type": "open"
+    }
+  ],
+  "name": "RandomZ",
+  "unique_name": "randomz",
+  "version": "1.0.0",
+  "type": "sandboxed",
+  "category": "educational",
+  "start_command": "node randomz.js",
+  "short_description": "Application example.",
+  "appstore_description": "Application example.",
+  "developer": {
+    "name": "Spaceify Oy",
+    "url": "http://spaceify.net",
+    "email": "admin@spaceify.net"
+  },
+  "implements": [
+    "WEB_SERVER"
+  ]
+}

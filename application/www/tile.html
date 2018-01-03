@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title></title>
+
+	<link rel="stylesheet" sp_href="css/tile.css">
+
+	<!-- Remote operation | Spaceify's API | Tiles app code -->
+	<script src="libs/spaceify.loader.js"></script>
+	<script spe_src="libs/spaceify.api.js"></script>
+	<script sp_src="rand.js"></script>
+
+	<script>
+	var app;
+	var unique_name ="randomz";
+
+	<!-- Wait before doing anything -->
+	window.addEventListener("spaceifyReady", function()
+		{
+		// Use this class when working with applications
+		app = new SpaceifyApplication();
+
+		// Init this app and connect to the application on the edge
+		var rand = new Rand(app, "rdiv");
+		app.connect(rand, unique_name);
+		}, false);
+
+	<!-- Open the applications web page -->
+	window.addEventListener("click", function()
+		{
+		window.open(unique_name, "index.html", "_blank");
+		});
+	</script>
+</head>
+
+<body>
+	<div class="tile">
+		<div class="tileText" id="rdiv">
+		</div>
+	</div>
+</body>
+
+</html>
