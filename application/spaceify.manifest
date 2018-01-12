@@ -1,16 +1,16 @@
 {
   "provides_services": [
     {
-      "service_name": "spaceify.org/services/randomz",
+      "service_name": "spaceify.org/services/random",
       "service_type": "open"
     }
   ],
-  "name": "RandomZ",
-  "unique_name": "randomz",
+  "name": "Random",
+  "unique_name": "random",
   "version": "1.0.0",
   "type": "sandboxed",
   "category": "educational",
-  "start_command": "node randomz.js",
+  "start_command": "node random.js",
   "short_description": "Application example.",
   "appstore_description": "Application example.",
   "developer": {

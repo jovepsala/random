@@ -6,7 +6,7 @@ function Rand(app, id)
 
 	// The required service
 	var service = null;
-	var serviceName = "spaceify.org/services/randomz";
+	var serviceName = "spaceify.org/services/random";
 
 	// This method is called if connection to the app was succesfull
 	self.start = function()
