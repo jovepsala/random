@@ -15,6 +15,7 @@ body {
 	display: table;
 	cursor: pointer;
 	position: absolute;
+	color: rgb(57, 204, 179);
 }
 
 .tileText {

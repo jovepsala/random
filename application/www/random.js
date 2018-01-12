@@ -1,4 +1,4 @@
-function Rand(app, id)
+function Random(app, id)
 	{
 	var self = this;
 

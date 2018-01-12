@@ -11,7 +11,7 @@
 	<!-- Remote operation | Spaceify's API | Tiles app code -->
 	<script src="libs/spaceify.loader.js"></script>
 	<script spe_src="libs/spaceify.api.js"></script>
-	<script sp_src="rand.js"></script>
+	<script sp_src="random.js"></script>
 
 	<script>
 	var app;
@@ -24,8 +24,8 @@
 		app = new SpaceifyApplication();
 
 		// Init this app and connect to the application on the edge
-		var rand = new Rand(app, "rdiv");
-		app.connect(rand, unique_name);
+		var random = new Random(app, "rdiv");
+		app.connect(random, unique_name);
 		}, false);
 
 	<!-- Open the applications web page -->
